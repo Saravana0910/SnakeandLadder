@@ -1,0 +1,104 @@
+#Snake and Ladder
+user=1
+end=100
+while user<= end:
+ user1=int(input("enter a dice:"))
+ 
+#Addition
+#For Ladder
+#Position0 2 : 23
+#Position0 8 : 12
+#Position 17 : 93
+#Position 29 : 54
+#Position 32 : 51
+#Position 39 : 80
+#Position 62 : 78 
+#Position 70 : 89
+#Position 75 : 96 
+
+ if user1>=1 and user1<= 6:
+   
+   user = user + user1
+   if user>=100:
+    print("You wins")
+   if user == 2:
+    user= user+21
+    print("user=",user)
+    print("you got a Ladder")
+   elif user == 8 :
+    user = user + 4
+    print("user=",user)
+    print("you got a Ladder")
+   elif user == 17:
+    user = user + 76
+    print("user=",user)
+    print("you got a Ladder")
+   elif user == 29 :
+    user = user + 25
+    print("user=",user)
+    print("you got a Ladder")
+   elif user == 32:
+    user = user + 19
+    print("user=",user)
+    print("you got a Ladder")  
+   elif user == 39 :
+    user = user + 41
+    print("user=",user)
+    print("you got a Ladder")
+   elif user == 62 :
+    user = user + 16
+    print("user=",user)
+    print("you got a Ladder")
+   elif user == 70 :
+    user = user + 19
+    print("user=",user)
+    print("you got a Ladder")   
+   elif user == 75 :
+    user = user + 21
+    print("user=",user)
+    print("you got a Ladder")  
+
+#Subtraction
+#For Snake Bite
+#Position 31 : 14
+#Position 41 : 20
+#Position 59 : 37
+#Position 67 : 50
+#Position 92 : 76
+#Position 83 : 80
+#Position 99 : 04
+
+   elif user == 31 :
+    user = user - 17
+    print("user=",user)
+    print("you got a Snake Bite")
+   elif user == 41 :
+    user = user - 21
+    print("user=",user)
+    print("you got a Snake Bite")
+   elif user == 59 :
+    user = user - 22
+    print("user=",user)
+    print("you got a Snake Bite")
+   elif user == 67 :
+    user = user - 17
+    print("user=",user)
+    print("you got a Snake Bite")  
+   elif user == 92 :
+    user = user - 16
+    print("user=",user)
+    print("you got a Snake Bite")
+   elif user == 83 :
+    user = user - 3
+    print("user=",user)
+    print("you got a Snake Bite")
+   elif user == 99 :
+    user = user - 95
+    print("user=",user)
+    print("you got a Snake Bite")      
+   elif user != '2':
+    print("user=",user)
+ else:
+    print ("try again")
+    
+user = user + 1
